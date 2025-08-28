@@ -1,0 +1,6 @@
+Gender,remote_work,treatment,no_employees
+Male,Yes,Yes,1-5
+Female,No,No,26-100
+Female,Yes,Yes,6-25
+Male,No,No,100-500
+Non-binary,Yes,Yes,More than 1000
