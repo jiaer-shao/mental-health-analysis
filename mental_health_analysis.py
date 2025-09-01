@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+#open file "surver.csv"
+df = pd.read_csv("survey.csv")
+df.head()
+
+# Check columns and missing values
+df.info()
+df.isnull().sum().sort_values(ascending=False).head(10)
+
+# Gender distribution 
+df['Gender'].value_counts().head(10).plot(kind='bar', title='Gender Distribution')
+plt.ylabel('Count')
+plt.show()
+
+# Treatment rate by remote work
+pd.crosstab(df['remote_work'], df['treatment'], normalize='index').plot(kind='bar', stacked=True)
+plt.title('Treatment by Remote Work')
+plt.ylabel('Proportion')
+plt.show()
+
+# # Let's look at treatment by company size
+pd.crosstab(df['no_employees'], df['treatment'], normalize='index').plot(kind='bar', stacked=True)
+plt.title('Treatment by Company Size')
+plt.ylabel('Proportion')
+plt.xticks(rotation=45)
+plt.show()
+
