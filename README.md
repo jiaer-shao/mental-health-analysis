@@ -18,7 +18,7 @@ It explores trends related to gender, company size, and remote work.
 - Small companies offer fewer mental health resources than large ones
 
 ## Files
-- `mental_health_analysis.ipynb`: Main notebook with code
+- `mental_health_analysis.py`: Main notebook with code
 - `README.md`: This file
 
 ---
