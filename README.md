@@ -4,17 +4,6 @@
 This project analyzes mental health survey data in the tech industry using Python.  
 It explores trends related to gender, company size, and remote work.
 
-## Key Visualizations
-
-### Gender Distribution
-![Gender Distribution](gender_distribution.png)
-
-### Treatment by Remote Work
-![Remote Work](remote_treatment.png)
-
-### Treatment by Company Size
-![Company Size](company_treatment.png)
-
 ## Tools Used
 - Python (pandas, matplotlib)
 - Jupyter Notebook
@@ -27,6 +16,12 @@ It explores trends related to gender, company size, and remote work.
 ## Key Findings
 - Remote workers are more likely to seek help, but also report higher isolation
 - Small companies offer fewer mental health resources than large ones
+
+### Visualizations
+
+<img src="gender_distribution.png" alt="Gender Distribution" width="400"/>
+<img src="remote_treatment.png" alt="Remote Treatment" width="400"/>
+<img src="company_treatment.png" alt="Company Treatment" width="400"/>
 
 ## Files
 - `mental_health_analysis.py`: Main notebook with code
