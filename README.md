@@ -32,6 +32,10 @@ It explores trends related to gender, company size, and remote work.
 - `mental_health_analysis.py`: Main notebook with code
 - `README.md`: This file
 
+## Dataset Source
+
+The dataset is from [OSMI (Open Sourcing Mental Illness)](https://osmihelp.org/), a nonprofit organization focused on mental health awareness in the tech industry. The survey collects self-reported data from tech workers around the world on their mental health experiences and workplace environments.
+
 ---
 
 **Created by Jiaer Shao | August 2025**
