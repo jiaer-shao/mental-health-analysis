@@ -4,6 +4,17 @@
 This project analyzes mental health survey data in the tech industry using Python.  
 It explores trends related to gender, company size, and remote work.
 
+## Key Visualizations
+
+### Gender Distribution
+![Gender Distribution](gender_distribution.png)
+
+### Treatment by Remote Work
+![Remote Work](remote_treatment.png)
+
+### Treatment by Company Size
+![Company Size](company_treatment.png)
+
 ## Tools Used
 - Python (pandas, matplotlib)
 - Jupyter Notebook
